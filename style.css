@@ -1,0 +1,100 @@
+
+
+body { /*this will affect all of our body in html */
+	font-family: 'Lato', sans-serif;	
+	color: #2d3c49;
+	font-weight: 300;
+}
+
+img {
+	width: 100%;
+}
+
+h1 {
+	font-size: 60px;
+}
+
+h2 {
+	color: #2d3c49;
+}
+
+hr {
+
+	border-top-width: 4px;
+	border-color: #7d97ad;
+	width: 100%;
+}
+
+.changeFontStyle{
+	font-family: 'Lato', serif;
+	font-size: 35px;
+	font-weight: 500;
+	color: #7d97ad
+}
+
+.imageSameHeight {
+
+	height: 300px;
+}
+
+#header1{
+
+	margin-top: 77px;
+}
+
+.logoFromTop{
+	margin-top: 50px;
+	padding-top: 50px;
+}
+
+.Logo{
+	width: 80px;
+	height: 73px;
+}
+
+.paddingLeftZero{
+	padding-left: 0px;
+}
+
+.paddingRightZero{
+	padding-right: 0px;
+}
+
+@media screen and (max-width: 450px) {
+	h1 {
+		font-size: 50px;
+	}
+
+	#header1, #FeaturedWork {
+		margin-top: 25px;
+		text-align: center;
+		vertical-align: middle;
+	}
+
+	#udacityLogo {
+		margin-top: 0px;
+		padding-top: 50px;
+		display: block;
+		padding-left: 150px;
+	}
+}
+
+@media screen and (min-width: 451px) and (max-width: 1000px) {
+	h1 {
+		font-size: 47px;
+	}
+
+	#firstRow {
+		display: flex;
+	}
+
+	#header1 {
+		width: 50%;
+
+	}
+
+	#udacityLogo {	
+		width: 50%;
+		padding-top: 50px;
+	}
+}
